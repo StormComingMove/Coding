@@ -1,5 +1,6 @@
-# method1
+# method1 - using extra variable
 # swap
+
 x,y = [int(inp) for inp in input("input for method 1: ").split()]
 
 temp_var = x
@@ -9,6 +10,7 @@ print(x, y)
 
 # method2 - without using extra variable
 # swap
+
 x,y = [int(inp) for inp in input("input for method 1: ").split()]
 
 x = x+y
