@@ -4,8 +4,9 @@
 
 // inside class - static variable or func is common for class or all the objects created by class
 // static func will always refer or have only static variables
+// when u are using static variables inside class you have declare outside of the class(\ int A::s_variable;)
 
-// local static - 
+// local static - live time, scope - live time will be as long as our code runs, scope will be inside that class or fucntion
 
 #include <iostream>
 
